@@ -1,5 +1,3 @@
-BUG-003 — Incorrect wind speed field name
-
 Title:
 Open-Meteo API returns "windspeed" instead of expected "wind_speed"
 

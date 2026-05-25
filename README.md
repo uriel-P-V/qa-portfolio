@@ -13,6 +13,8 @@ bug reports and defect analysis from automated test suites.
 | [BUG-002](bug-reports/BUG-002-restfulbooker-post-status.md) | POST /booking returns 200 OK instead of 201 Created | Low | P3 | RestfulBooker |
 | [BUG-003](bug-reports/BUG-003-openmeteo-windspeed-field.md) | API returns "windspeed" instead of expected "wind_speed" | Medium | P2 | Open-Meteo |
 | [BUG-004](bug-reports/BUG-004-fakestore-403-ci-environment.md) | GET /products returns 403 Forbidden in GitHub Actions CI | High | P1 | FakeStoreAPI |
+| [BUG-005](bug-reports/BUG-005-pokeapi-id-zero-no-response.md) | GET /pokemon/0 hangs instead of returning 404 | High | P1 | PokeAPI |
+| [BUG-006](bug-reports/BUG-006-rickandmorty-404-structured-error.md) | GET /character/99999 correctly returns 404 with structured error | Informational | P4 | Rick and Morty API |
  
 ---
  
@@ -23,7 +25,16 @@ Each report follows industry-standard defect documentation including environment
 steps to reproduce, expected vs actual behavior, and root cause analysis.
  
 ---
- 
+## Automation Projects
+
+| Project | Framework | API | Scenarios | CI/CD |
+|---------|-----------|-----|-----------|-------|
+| [weather-bdd-tests](https://github.com/uriel-P-V/weather-bdd-tests) | Behave + Gherkin | Open-Meteo | 6 | ✅ |
+| [booking-bdd-tests](https://github.com/uriel-P-V/booking-bdd-tests) | Behave + Gherkin | RestfulBooker | 6 | ✅ |
+| [fakestore-bdd-tests](https://github.com/uriel-P-V/fakestore-bdd-tests) | Behave + Gherkin | FakeStoreAPI | 9 | ✅ |
+| [pokeapi-bdd-tests](https://github.com/uriel-P-V/pokeapi-bdd-tests) | Behave + Gherkin | PokéAPI | 5 | ✅ |
+| [rickandmorty-bdd-tests](https://github.com/uriel-P-V/rickandmorty-bdd-tests) | Behave + Gherkin | Rick and Morty API | 5 | ✅ |
+
 ## Author
  
 **Uriel Alejandro Pérez Valdovinos**  

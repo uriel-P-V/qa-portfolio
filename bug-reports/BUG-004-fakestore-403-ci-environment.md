@@ -1,5 +1,3 @@
-BUG-004 — FakeStoreAPI returns 403 Forbidden in GitHub Actions CI
-
 Title:
 GET /products returns 403 Forbidden in GitHub Actions CI/CD environment
 
