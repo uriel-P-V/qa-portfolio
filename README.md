@@ -7,8 +7,8 @@ bug reports and defect analysis from automated test suites.
 
 ## Bug Reports
 
-| ID | Title | Severity | Priority | API |
-|----|-------|----------|----------|-----|
+| ID | Title | Severity | Priority | Project |
+|----|-------|----------|----------|---------|
 | [BUG-001](bug-reports/BUG-001-fakestore-invalid-product.md) | GET /products/9999 returns 200 instead of 404 | Low | P3 | FakeStoreAPI |
 | [BUG-002](bug-reports/BUG-002-restfulbooker-post-status.md) | POST /booking returns 200 OK instead of 201 Created | Low | P3 | RestfulBooker |
 | [BUG-003](bug-reports/BUG-003-openmeteo-windspeed-field.md) | API returns "windspeed" instead of expected "wind_speed" | Medium | P2 | Open-Meteo |
@@ -21,13 +21,13 @@ bug reports and defect analysis from automated test suites.
 
 ## About
 
-These bug reports were identified during the development of automated BDD test suites.
+These bug reports were identified during the development of automated test suites.
 Each report follows industry-standard defect documentation including environment details,
 steps to reproduce, expected vs actual behavior, and root cause analysis.
 
 ---
 
-## Automation Projects
+## BDD Automation Projects
 
 | Project | Framework | API | Scenarios | CI/CD |
 |---------|-----------|-----|-----------|-------|
@@ -38,6 +38,37 @@ steps to reproduce, expected vs actual behavior, and root cause analysis.
 | [rickandmorty-bdd-tests](https://github.com/uriel-P-V/rickandmorty-bdd-tests) | Behave + Gherkin | Rick and Morty API | 5 | ✅ |
 | [southpark-bdd-tests](https://github.com/uriel-P-V/southpark-bdd-tests) | Behave + Gherkin | South Park API | 6 | ✅ |
 | [bobsburgers-bdd-tests](https://github.com/uriel-P-V/bobsburgers-bdd-tests) | Behave + Gherkin | Bob's Burgers API | 6 | ✅ |
+
+---
+
+## Pytest + Requests Projects
+
+| Project | What it demonstrates | Tests | CI/CD |
+|---------|---------------------|-------|-------|
+| [requests-pytest](https://github.com/uriel-P-V/requests-pytest) | REST API testing — GET, POST, PUT, DELETE, auth, sessions | 24 | ✅ |
+| [storage-test-automation](https://github.com/uriel-P-V/storage-test-automation) | Full test suite — markers, fixtures, defect reporting | 53 | ✅ |
+| [storage-audit-system](https://github.com/uriel-P-V/storage-audit-system) | SQLite in tests, in-memory fixtures, CI with coverage | 13 | ✅ |
+| [storage-performance-tests](https://github.com/uriel-P-V/storage-performance-tests) | Latency, throughput, P95, pytest-benchmark | 11 | ✅ |
+| [storage-api-client](https://github.com/uriel-P-V/storage-api-client) | MagicMock, side_effect, assert_called_once_with | 11 | ✅ |
+| [notification-test-suite](https://github.com/uriel-P-V/notification-test-suite) | Contract testing, dependency injection, schema validation | 16 | ✅ |
+| [disk-health-monitor](https://github.com/uriel-P-V/disk-health-monitor) | Agile workflow, Bash scripting, Unix monitoring | 8 | ✅ |
+
+---
+
+## Skills Demonstrated
+
+| Skill | Projects |
+|-------|---------|
+| REST API Testing | requests-pytest, storage-test-automation |
+| BDD / Gherkin | weather-bdd-tests, booking-bdd-tests, fakestore-bdd-tests + 4 more |
+| Mock-based Testing | storage-api-client, notification-test-suite |
+| Contract Testing | notification-test-suite |
+| Performance Testing | storage-performance-tests |
+| Database in Tests | storage-audit-system |
+| CI/CD — GitHub Actions | All projects |
+| Bash Scripting | disk-health-monitor, storage-test-automation |
+| Defect Reporting | qa-portfolio (this repo) |
+| Agile Workflow | disk-health-monitor |
 
 ---
 
