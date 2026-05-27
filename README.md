@@ -1,12 +1,12 @@
 # QA Portfolio — Uriel Alejandro Pérez Valdovinos
- 
+
 Documentation artifacts from real QA engineering work —
 bug reports and defect analysis from automated test suites.
- 
+
 ---
- 
+
 ## Bug Reports
- 
+
 | ID | Title | Severity | Priority | API |
 |----|-------|----------|----------|-----|
 | [BUG-001](bug-reports/BUG-001-fakestore-invalid-product.md) | GET /products/9999 returns 200 instead of 404 | Low | P3 | FakeStoreAPI |
@@ -15,16 +15,18 @@ bug reports and defect analysis from automated test suites.
 | [BUG-004](bug-reports/BUG-004-fakestore-403-ci-environment.md) | GET /products returns 403 Forbidden in GitHub Actions CI | High | P1 | FakeStoreAPI |
 | [BUG-005](bug-reports/BUG-005-pokeapi-id-zero-no-response.md) | GET /pokemon/0 hangs instead of returning 404 | High | P1 | PokeAPI |
 | [BUG-006](bug-reports/BUG-006-rickandmorty-404-structured-error.md) | GET /character/99999 correctly returns 404 with structured error | Informational | P4 | Rick and Morty API |
- 
+| [BUG-007](bug-reports/BUG-007-bobsburgers-500-invalid-id.md) | GET /characters/9999 returns 500 instead of 404 | High | P1 | Bob's Burgers API |
+
 ---
- 
+
 ## About
- 
+
 These bug reports were identified during the development of automated BDD test suites.
 Each report follows industry-standard defect documentation including environment details,
 steps to reproduce, expected vs actual behavior, and root cause analysis.
- 
+
 ---
+
 ## Automation Projects
 
 | Project | Framework | API | Scenarios | CI/CD |
@@ -34,8 +36,12 @@ steps to reproduce, expected vs actual behavior, and root cause analysis.
 | [fakestore-bdd-tests](https://github.com/uriel-P-V/fakestore-bdd-tests) | Behave + Gherkin | FakeStoreAPI | 9 | ✅ |
 | [pokeapi-bdd-tests](https://github.com/uriel-P-V/pokeapi-bdd-tests) | Behave + Gherkin | PokéAPI | 5 | ✅ |
 | [rickandmorty-bdd-tests](https://github.com/uriel-P-V/rickandmorty-bdd-tests) | Behave + Gherkin | Rick and Morty API | 5 | ✅ |
+| [southpark-bdd-tests](https://github.com/uriel-P-V/southpark-bdd-tests) | Behave + Gherkin | South Park API | 6 | ✅ |
+| [bobsburgers-bdd-tests](https://github.com/uriel-P-V/bobsburgers-bdd-tests) | Behave + Gherkin | Bob's Burgers API | 6 | ✅ |
+
+---
 
 ## Author
- 
+
 **Uriel Alejandro Pérez Valdovinos**  
 [github.com/uriel-P-V](https://github.com/uriel-P-V) · [linkedin.com/in/uriel-pv](https://linkedin.com/in/uriel-pv)
