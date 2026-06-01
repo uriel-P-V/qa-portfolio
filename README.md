@@ -16,7 +16,7 @@ bug reports and defect analysis from automated test suites.
 | [BUG-005](bug-reports/BUG-005-pokeapi-id-zero-no-response.md) | GET /pokemon/0 hangs instead of returning 404 | High | P1 | PokeAPI |
 | [BUG-006](bug-reports/BUG-006-rickandmorty-404-structured-error.md) | GET /character/99999 correctly returns 404 with structured error | Informational | P4 | Rick and Morty API |
 | [BUG-007](bug-reports/BUG-007-bobsburgers-500-invalid-id.md) | GET /characters/9999 returns 500 instead of 404 | High | P1 | Bob's Burgers API |
-| [BUG-008](bug-reports/BUG-010-minio-upload-latency.md) | Upload is 37x slower than download — performance deviation | Medium | P2 | MinIO |
+| [BUG-008](bug-reports/BUG-008-minio-upload-latency.md) | Upload is 37x slower than download — performance deviation | Medium | P2 | MinIO |
 
 ---
 
