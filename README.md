@@ -58,6 +58,7 @@ steps to reproduce, expected vs actual behavior, and root cause analysis.
 | [notification-test-suite](https://github.com/uriel-P-V/notification-test-suite) | Contract testing, dependency injection, schema validation | 16 | ✅ |
 | [disk-health-monitor](https://github.com/uriel-P-V/disk-health-monitor) | Agile workflow, Bash scripting, Unix monitoring | 8 | ✅ |
 | [minio-storage-tests](https://github.com/uriel-P-V/minio-storage-tests) | Real storage testing — MinIO buckets, objects, performance, Docker CI | 15 | ✅ |
+| [nvme-storage-parsing](https://github.com/uriel-P-V/nvme-storage-parsing) | NVMe binary log parsing — 5 parsers, fleet reporting, 107 pytest tests | 107 | ❌ |
 
 ---
 
@@ -78,6 +79,8 @@ steps to reproduce, expected vs actual behavior, and root cause analysis.
 | Bash Scripting | disk-health-monitor, storage-test-automation |
 | Defect Reporting | qa-portfolio (this repo) |
 | Agile Workflow | disk-health-monitor |
+| NVMe Binary Parsing | nvme-storage-parsing |
+| Little-endian byte parsing | nvme-storage-parsing |
 
 ---
 
